@@ -143,6 +143,4 @@ function table() {
 }
 
 
-function rank(){
 
-}
