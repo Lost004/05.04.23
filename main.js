@@ -142,5 +142,14 @@ function table() {
     tbl.innerHTML = tr;
 }
 
+function imageChange () {
+    for (let i = e; i<image.length; i++){
+    
+    image [i].style.opacity = opacityRange .value;
+    
+    image [i].style.borderRadius = `$(borderRadiusRange .value)px`;
+    
+    }
+}
 
 
