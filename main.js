@@ -1,6 +1,6 @@
 "use script"
 
-const image = document.querySelector('#image');
+const image = document.querySelector('.image');
 
 const opacityRange = document.querySelector('#opacity-range');
 const borderRadiusRange = document.querySelector('#border-radius-range');
