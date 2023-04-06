@@ -35,7 +35,7 @@ let count = 0;
 
 let data = prompt('Adiniz nedir?', 'Player1');
 
-localStorage.removeItem('points');
+
 
 onkeydown = barMove;
 let set = setInterval(ballMove, 40);
