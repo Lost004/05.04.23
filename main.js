@@ -12,7 +12,6 @@ const updateImageStyle = () => {
 }
 if(localStorage.getItem("opacity") !== null) {
   opacityRange.value = localStorage.getItem("opacity");
-  image.style.opacity = opacityRange.value;
 }
 
 if(localStorage.getItem("borderRadius") !== null) {
